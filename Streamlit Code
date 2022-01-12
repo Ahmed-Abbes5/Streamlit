@@ -14,7 +14,7 @@ im = Image.open('Desktop/MSDPY.png')
 st.title('Dashboard Réunions Publiques MSD')
 st.image(im)
 
-url = 'https://github.com/Ahmed-Abbes5/psbx'
+url = 'https://github.com/Ahmed-Abbes5/Streamlit'
 if st.sidebar.button("MY GITHUB"):
     webbrowser.open_new_tab(url)
 
@@ -52,3 +52,4 @@ filter_df = df[df['Aire Thérapeutique'].isin(choix_aire)]
 st.dataframe(filter_df)
 
 #filtre intéractif
+
